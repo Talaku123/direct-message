@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./dm.css">
+  <title>Direct Message</title>
+</head>
+<body>
+     <div class="dm-head">
+      <h1>Hello World!</h1>
+      <p>Please leave us your tought</p>
+     </div>
+   
+
+     <button class="dm-btn" id="js-dmBtn" onclick="openMsg()">Let's Talk</button>
+
+     <section class="dm-msg-box" id="js-dmMess">
+        <form action="" class="form-container">
+          <h2>How Can Help You?</h2></label>
+          <textarea  id="js-dmInput" class="dm-msg" name="msg" id="" cols="30" rows="10" placeholder="Hi there..."></textarea>
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <button class="btn btn-secondary dm-delete" type="reset" onclick="closeMsg()">Close</button>
+        </form>
+     </section>
+  <script src="./dm.js"></script>
+</body>
+</html>
